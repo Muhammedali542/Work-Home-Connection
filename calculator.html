@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+</head>
+
+<style>
+  button{
+    width: 25px;
+    background-color: rgb(188, 187, 187);
+    border-radius: 5px;
+    box-shadow: 0 4px 20px rgba(182, 181, 181, 0.1);
+  }
+</style>
+
+<body>
+  <button onclick="
+    calculation += '1'
+    console.log(calculation)  
+  ">1</button>
+
+  <button onclick="
+  calculation += '2'
+  console.log(calculation)  
+">2</button>
+
+  <button onclick="
+  calculation += '3'
+  console.log(calculation)  
+">3</button>
+
+  <button onclick="
+  calculation += ' + '
+  console.log(calculation)  
+">+</button>
+
+  <button onclick="
+  calculation = eval(calculation);
+  console.log(calculation);
+">=</button>
+
+  <script>
+    let calculation = '';
+  </script>
+
+</body>
+</html>
