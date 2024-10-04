@@ -1,48 +1,33 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML CSS review</title>
-
-    <style>
-        .red-btn{
-            background-color: red;
-            color: white;
-            border: none;
-    
-        }
-
-        .yellow-btn{
-            background-color: yellow;
-        }
-    </style>
-    
-</head>
-<body>
-
-    <button title="Good Job" class="red-btn" onclick="
-        alert('Good Job')
-        ">Hello</button>
-
-
-    <p>Lorem ipsum dolor <button 
-         class="yellow-btn">Hello</button>sit.</p>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
     <script>
-        alert('hello')
+      /*  let hour = 5;
+      let name = `Mohamed`;
 
-    
+      if (hour >= 6 && hour <= 12) {
+        console.log(`Good morning ${name}`);
+      } else if (hour >= 13 && hour <= 17) {
+        console.log(`Good afternoon ${name}`);
+      } else {
+        console.log(`Good night ${name}`);
+      }
+
+      hour = 20; */
+
+      let age = prompt(`enter your age`);
+      let isHoliday = true;
+
+      if (age <= 5 || (age >= 65 && !isHoliday)) {
+        console.log(`Discount`);
+      } else {
+        console.log("non-discount");
+      }
     </script>
-
-
-
-</body>
+  </body>
 </html>
-
-
-
-
-
-
